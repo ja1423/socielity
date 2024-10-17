@@ -18,9 +18,9 @@
           of the many other communities that comprise your personal world.
         </p>
         
-          <button class="text-white hover:text-[#4579CB] bg-[#4579CB] rounded-xl p-3 px-5 hover:bg-blue-300" @click="toggleModal">
+          <router-link to="/explore" class="text-white hover:text-[#4579CB] bg-[#4579CB] rounded-xl p-3 px-5 hover:bg-blue-300" @click="toggleModal">
             Explore More
-          </button>
+          </router-link>
 
        
       </div>

@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Segoe UI", "sans-serif"],
+        sans: ["Montserrat", "Afacad Flux"],
       },
     },
   },

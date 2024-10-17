@@ -35,9 +35,9 @@
           >
         </div>
         <div class="bg-[#4579CB] rounded-2xl p-4 hover:bg-white">
-          <button class="text-white hover:text-[#4579CB]" @click="toggleModal">
+          <router-link to="/explore" class="text-white hover:text-[#4579CB]" @click="toggleModal">
             Explore More
-          </button>
+          </router-link>
         </div>
       </div>
     </div>
