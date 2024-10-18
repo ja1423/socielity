@@ -84,6 +84,12 @@
       seeks to make an impact, whether big or small, should embark on. ChatGPT
       может допускать ошибки. Рекомендуем проверять важную информацию.
     </h1>
+
+     <div class="mt-6">
+      <button @click="$router.go(-1)" class="bg-[#4579CB] text-white px-4 py-2 rounded-lg hover:bg-[#345a96]">
+        Back
+      </button>
+    </div>
   </div>
 </template>
 

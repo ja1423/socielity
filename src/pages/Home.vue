@@ -1,6 +1,6 @@
 <template>
     <div>
-<Navbar />
+
 <Header />
 <Brend />
 <Groups />
@@ -12,12 +12,11 @@
 <FAQ />
 <Carusel />
 <News />
-<Footer />
+\
     </div>
 </template>
 
 <script setup>
-import Navbar from '../components/Navbar.vue'
 import Header from '../components/Header.vue'
 import Brend from '../components/Brend.vue'
 import Groups from '../components/Groups.vue'
@@ -29,7 +28,6 @@ import Videos from '../components/Videos.vue'
 import FAQ from '../components/FAQ.vue'
 import Carusel from '../components/Carusel.vue'
 import News from '../components/News.vue'
-import Footer from '../components/Footer.vue'
 
 </script>
 
